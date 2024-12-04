@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SDK">
+      <UniqueIdentifier>{0b89b14b-48d7-4bbe-8927-bbc8837dddae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hook">
+      <UniqueIdentifier>{5be905c9-e512-4884-9a8b-a964cf301ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{8d912d5c-4170-471f-b4a5-95bac224554a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{63872896-3330-4fd3-ac50-594287a97948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modules">
+      <UniqueIdentifier>{77448a9f-8529-4bfe-80ce-fe2e2415e4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\Misc">
+      <UniqueIdentifier>{7bafb076-88bc-4b1f-9968-0d762bab7be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ASM">
+      <UniqueIdentifier>{fc7a14b2-7d63-430d-8c17-480eccece7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\Hooking">
+      <UniqueIdentifier>{c3cb6d72-5592-46e2-9cd2-cd8ed1b56ba4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooking\memory_hook.cpp">
+      <Filter>Header Files\Utils\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="hooking\hde32.c">
+      <Filter>Header Files\Utils\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="hooking\hde64.c">
+      <Filter>Header Files\Utils\Hooking</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking.h">
+      <Filter>Header Files\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_framework.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="skin_changer.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_gui.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="chams.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="standalone_recoil.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="insta_lock.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="valo_skin_updater.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="triggerbot.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="keys.h">
+      <Filter>Header Files\Utils\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Header Files\Utils\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="pointer.h">
+      <Filter>Header Files\Utils\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files\Utils\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="uworld_update.h">
+      <Filter>Header Files\Utils\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="xor_string.h">
+      <Filter>Header Files\Utils\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofing.h">
+      <Filter>Header Files\Utils\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="valo_offsets.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files\Utils\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking\hde64.h">
+      <Filter>Header Files\Utils\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking\memory_hook.h">
+      <Filter>Header Files\Utils\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking\table32.h">
+      <Filter>Header Files\Utils\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking\table64.h">
+      <Filter>Header Files\Utils\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking\hde32.h">
+      <Filter>Header Files\Utils\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="new_menu.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="memory.asm">
+      <Filter>Header Files\ASM</Filter>
+    </MASM>
+    <MASM Include="hooka.asm">
+      <Filter>Header Files\ASM</Filter>
+    </MASM>
+    <MASM Include="spoofcall.asm">
+      <Filter>Header Files\Utils\Hooking</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
