@@ -1,5 +1,4 @@
 # yuki-internal
-# yuki internal
 
 ## License Information
 
